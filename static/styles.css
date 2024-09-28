@@ -1,0 +1,18 @@
+#suggestions {
+    border: 1px solid #ccc;
+    max-width: 300px;
+    margin-top: 5px;
+    display: none;
+}
+.suggestion {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+.suggestion:hover {
+    background-color: #f0f0f0;
+}
+.map{
+    height: 400px; /* The height is 400 pixels */
+    width: 100%; 
+}
