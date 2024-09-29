@@ -1,0 +1,78 @@
+#suggestions {
+    border: 1px solid #ccc;
+    max-width: 300px;
+    margin-top: 5px;
+    display: none;
+}
+.suggestion {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+.suggestion:hover {
+    background-color: #f0f0f0;
+}
+.maps{
+    height: 100%; /* The height is 400 pixels */
+    width: 100%; 
+}
+.heading1{
+    border: 1px solid blue;
+}
+input[type="text"] {
+    font-size: 24px; /* Increase font size */
+    padding: 15px 20px; /* Increase padding inside the input field */
+    border-radius: 5px; /* Optional: round the corners */
+    border: 2px solid #BFE6FF; /* Border style */
+}
+.care_compare_display {
+    font-size: 64px; /* Large font size for Care Compare */
+    font-family: 'Arial Black', sans-serif;
+
+    margin: 0; /* Remove margin */
+    border:0;
+    padding:0;
+    color: #BFE6FF;
+    display: inline-block; /* Display inline-block to align with paragraph */
+    vertical-align: middle; /* Align vertically with the smaller text */
+}
+
+.small_text {
+    font-family: Arial, sans-serif;
+
+    font-size: 16px; /* Smaller font size for the paragraph */
+    margin: 0; /* Remove margin */
+    display: inline-block; /* Display inline-block */
+    /* Align vertically with the large text */
+}
+.price_marker {
+    /* Optional border */
+    border-radius: 5px;           /* Rounds the corners */
+    padding: 2vw;                  /* Padding relative to viewport width */
+    min-width: 48px;                   /* Width relative to viewport width */
+    height: 25px;                  /* Height relative to viewport width, keeping it square */
+    box-sizing: border-box;        /* Ensure padding and border are included in width/height */
+    text-align: center;            /* Centers the text horizontally */
+    display: flex;                 /* Flexbox for centering */
+    align-items: center;           /* Vertically centers the text */
+    justify-content: center;       /* Horizontally centers the text */
+    margin: 2vh auto;              /* Top margin relative to viewport height, centered horizontally */
+    color: white;                  /* Text color for contrast */
+    font-size: 2vw;                /* Font size relative to viewport width */
+}
+.gridItem {
+    border: 2px solid blueviolet;
+    border-radius: 5px;
+ /* Space between border and content */
+    background-color: rgb(192, 50, 224); /* Fill color in the padding area */
+    position:absolute;
+    display:flex;
+    height:5vw;
+}
+
+.gridItemContent {
+    border-radius: 3px; /* Optional: Slightly smaller radius for inner content */
+    padding: 5px; /* Optional: Padding inside the text area */
+    position:relative;
+    font-size:16px;
+}

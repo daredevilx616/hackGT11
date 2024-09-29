@@ -1,0 +1,27 @@
+
+{% block content %} 
+
+<body>
+    <h3 class="care_compare_display">Care Compare</h3>
+    <p class="small_text">Compare prices for medical procedures among nearby hospitals.</p>
+    <div display="block">
+    <input id='conditions_search_bar' placeholder='Enter a service' type='text' />
+    <input id='places_search_bar' placeholder='Enter a location' type='text' />
+    </div>
+    <!--The div element for the map -->
+    <div id="map" class="maps"></div>
+
+  </body>
+  <div id="api-data" data-api-key="{{ maps_api_key }}" style="display: none;"></div>
+{% endblock %}
+
+
+
+{% block styles %}
+
+<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+{% endblock %}
+
+{% block scripts %}
+<script type="text/javascript" src="{{ url_for('static', filename='main.js')}}?v=1.0"></script>
+{% endblock %}
